@@ -1,0 +1,8 @@
+The key to optimizng code in this directory is by using less memory.
+Everytime more memeory is used, garbage collection is used more.
+
+Fixes: 
+1) Modify objects, e.g. hashes, arrays, etc., in place.
+2) Read files line by line
+3) Callbacks that cause memory leaks
+
