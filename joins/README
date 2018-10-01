@@ -1,0 +1,10 @@
+$ ruby unoptimized.rb
+2.14
+
+$ ruby no_garbage_collection.rb
+1.41
+
+$ ruby optimized.rb
+1.05
+
+The optimized ruby code runs twice as fast as non-optimized code.
